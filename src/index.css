@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --clr-red: 14deg 86% 42%;
+    --clr-green: 159deg 69% 38%;
+    --clr-rose-50: 20deg 50% 98%;
+    --clr-rose-100: 13deg 31% 94%;
+    --clr-rose-300: 14deg 25% 72%;
+    --clr-rose-400: 7deg 20% 60%;
+    --clr-rose-500: 12deg 20% 44%;
+    --clr-rose-900: 14deg 65% 9%;
+  
+    --ff: "Red Hat Text", sans-serif;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(var(--clr-rose-50));
+  display: flex;
+  font-family: var(--ff);
+  margin: 0 auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
