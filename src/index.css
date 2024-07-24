@@ -5,6 +5,7 @@
 @layer base {
   :root {
     --clr-red: 14deg 86% 42%;
+    --clr-red__hoverBtn: 14deg 86% 32%;
     --clr-green: 159deg 69% 38%;
     --clr-rose-50: 20deg 50% 98%;
     --clr-rose-100: 13deg 31% 94%;

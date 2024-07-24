@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
          'Red': "hsl(var(--clr-red) / <alpha-value>)",
+         'RedHoverBtn': "hsl(var(--clr-red__hoverBtn) / <alpha-value>)",
          'Green': "hsl(var(--clr-green) / <alpha-value>)",
          'Rose50': "hsl(var(--clr-rose-50) / <alpha-value>)",
          'Rose100': "hsl(var(--clr-rose-100) / <alpha-value>)",
