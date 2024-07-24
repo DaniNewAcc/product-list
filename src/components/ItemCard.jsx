@@ -17,7 +17,7 @@ function ItemCard({ id, name, category, image, price }) {
 
   if (quantity === 0) {
     btnClasses +=
-      ' bg-white items-center justify-center border border-Rose400 px-3 text-sm hover:text-Red hover:border-Red xl:gap-2 xl:text-base';
+      ' bg-white items-center justify-center border border-Rose400 px-3 text-sm duration-200 hover:text-Red hover:border-Red xl:gap-2 xl:text-base';
   } else {
     btnClasses += ' bg-Red text-white justify-between';
     itemImgClasses += ' border-2 border-Red';

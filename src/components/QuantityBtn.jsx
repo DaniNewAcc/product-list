@@ -8,7 +8,7 @@ function QuantityBtn({
   onIncreaseQuantity
 }) {
   let iconClasses =
-    'w-6 border-2 border-white rounded-full mx-4 cursor-pointer group hover:bg-white';
+    'w-6 border-2 border-white rounded-full mx-4 cursor-pointer group duration-200 hover:bg-white';
 
     
   return (
